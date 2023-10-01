@@ -1,0 +1,11 @@
+[package]
+name = "yew-use_worker-bridge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew-agent = "0.3.0"
+yew = { version = "0.21.0", features = ["csr"] }
+serde = { version = "1.0.188", features = ["derive"] }
+log = "0.4"
+console_log = "1" 
